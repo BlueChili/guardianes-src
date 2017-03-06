@@ -8,6 +8,11 @@ docpadConfig = {
     regenerateDelay: 0
     catchupDelay: 0
     preferredMethods: ['watchFile', 'watch']
+  environments:
+    static:
+      enabledPlugins:
+        cleanurls: false
+        livereload: false
 }
 
 # Export the DocPad Configuration

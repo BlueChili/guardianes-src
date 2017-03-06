@@ -3,16 +3,61 @@ primaryOrange = rgb(255 164 0)
 primaryRed = rgb(253 51 23)
 secondaryBlue = rgb(0 110 186)
 
+*
+  font-family -apple-system, BlinkMacSytemFont, sans-serif
+  box-sizing border-box
+
+body
+  margin 0
 .tn
-  margin 1em
   display flex
+  margin 0
+  padding 1em 0 1em 1em
   justify-content flex-end
+  background linear-gradient(to bottom, white 15%, rgb(240,240,240) 70%, rgb(220,220,220))
+  border-bottom 1px solid gray
   a
     text-decoration none
+    font-weight 500
     color primaryBlue
-    padding 0 0.6em
+    padding 0 1em
     text-transform uppercase
+    transition all 0.2666s
     &:visited, &:active
       color primaryBlue
     &:not(:last-of-type)
       border-right 2px solid rgb(secondaryBlue)
+    &:hover
+      color primaryOrange
+
+.ccs
+  display flex
+  padding 0.5em
+  justify-content center
+  align-items stretch
+  flex-wrap wrap
+  margin 0
+  background linear-gradient(to bottom, white 15%, rgb(225,225,225) 70%, rgb(200,200,200))
+
+.ccs-card
+  diplay flex
+  align-items center
+  max-width 4em
+  border-radius 3px
+  border 1px solid rgb(150, 150, 150)
+  margin 0.4em 0.4em
+  text-decoration none
+  transition all 0.2888s
+  &:hover
+    box-shadow 0 0 8px secondaryBlue
+    transform scale(1.6)
+    border 1px solid secondaryBlue
+  img
+    margin 0
+    width 62px
+    height 127px
+    object-fit contain
+
+.hero
+  width 100%
+  heigth auto

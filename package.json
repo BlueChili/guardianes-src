@@ -6,7 +6,8 @@
     "docpad": "~6.79.0",
     "docpad-plugin-coffeekup": "~2.2.0",
     "docpad-plugin-livereload": "~2.7.1",
-    "docpad-plugin-stylus": "~2.11.0"
+    "docpad-plugin-stylus": "~2.11.0",
+    "docpad-plugin-cleanurls": "^2.8.1"
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
@@ -14,6 +15,5 @@
     "build": "node_modules/.bin/docpad generate --env static"
   },
   "devDependencies": {
-    "docpad-plugin-cleanurls": "^2.8.1"
   }
 }
