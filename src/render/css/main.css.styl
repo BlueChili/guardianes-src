@@ -1,0 +1,18 @@
+primaryBlue  = rgb(0 154 219)
+primaryOrange = rgb(255 164 0)
+primaryRed = rgb(253 51 23)
+secondaryBlue = rgb(0 110 186)
+
+.tn
+  margin 1em
+  display flex
+  justify-content flex-end
+  a
+    text-decoration none
+    color primaryBlue
+    padding 0 0.6em
+    text-transform uppercase
+    &:visited, &:active
+      color primaryBlue
+    &:not(:last-of-type)
+      border-right 2px solid rgb(secondaryBlue)
