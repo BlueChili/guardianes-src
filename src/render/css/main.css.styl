@@ -13,7 +13,7 @@ body
   display flex
   margin 0
   padding 1em 0 1em 1em
-  justify-content flex-end
+  justify-content center
   background linear-gradient(to bottom, white 15%, rgb(240,240,240) 70%, rgb(220,220,220))
   border-bottom 1px solid gray
   a
@@ -29,6 +29,18 @@ body
       border-right 2px solid rgb(secondaryBlue)
     &:hover
       color primaryOrange
+  @media screen and (max-width: 414px)
+    flex-wrap wrap
+    padding 0.5em 1em
+    a
+      flex-basis 40%
+      padding-bottom 3px
+      &:not(:last-of-type)
+        border-right 0px solid rgb(secondaryBlue)
+      &:nth-child(odd)
+        border-right 1px solid rgb(secondaryBlue)
+
+
 
 .ccs
   display flex
@@ -63,3 +75,5 @@ body
 .hero
   width 100%
   heigth auto
+  @media screen and (max-width: 414px)
+    display none
