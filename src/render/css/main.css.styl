@@ -77,3 +77,79 @@ body
   heigth auto
   @media screen and (max-width: 414px)
     display none
+
+.container
+  max-width 50em
+  display flex
+  margin 0 auto
+  padding 1em
+  @media screen and (min-width: 641px)
+    padding 1em 0
+    margin 0 1em
+  @media screen and (min-width: 845px)
+    margin 0 auto
+
+.left-hand
+  background rgba(255, 255, 255, 0.6)
+
+.cr-description
+  // text-shadow 2px 2px 2px white
+  margin-right 1em
+  @media screen and (min-width: 641px)
+    margin-right 0
+
+.cr-power
+  align-self flex-end
+
+.cr-power-bars
+  height 5em
+  width 3em
+
+.cr-power-description
+  font-weight 600
+
+.cr-name
+  width 100%
+  height auto
+  padding 0em 1em
+  max-width 20em
+
+.cr-container
+  position absolute
+  right 0
+  overflow hidden
+  z-index -1
+  @media screen and (min-width: 641px)
+    position relative
+    width 100%
+    order 1
+
+.cr-container-tedo
+  position absolute
+  right 0
+  top 290px
+  overflow hidden
+  z-index -1
+  @media screen and (min-width: 641px)
+    position relative
+    width 100%
+    top 60px
+    order 1
+
+.cr-avatar
+  transform translate3d(150px, 50px, 0)
+  @media screen and (min-width: 641px)
+    transform translate3d(0, 0, 0)
+    width 100%
+
+.cr-avatar-violeta
+  transform translate3d(35px, 50px, 0)
+  @media screen and (min-width: 641px)
+    width 100%
+    transform translate3d(0, 0, 0)
+
+.cr-avatar-tedo
+  transform translate3d(25px, 0, 0)
+  @media screen and (min-width: 641px)
+    transform translate3d(0, 50px, 0)
+    width 100%

@@ -3,6 +3,7 @@ html lang: 'es', ->
   head ->
     title -> 'Guardianes de los Valores'
     link rel: 'stylesheet', href: '/css/main.css'
+    meta name: 'viewport', content: 'width=device-width, initial-scale=1.0'
 
   body ->
     nav '.tn', ->
