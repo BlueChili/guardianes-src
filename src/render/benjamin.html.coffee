@@ -4,7 +4,7 @@ layout: 'default'
 
 main '.container', ->
   section '.cr-container', ->
-    img '.cr-avatar', src: '/img/chars/benjamin@2x.png', ->
+    img '.cr-avatar-benjamin', src: '/img/chars/benjamin@2x.png', ->
 
   section '.left-hand', ->
     img '.cr-name', src: '/img/names/benjamin@3x.png', ->
