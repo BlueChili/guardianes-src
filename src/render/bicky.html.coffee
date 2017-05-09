@@ -3,8 +3,8 @@ layout: 'default'
 ###
 
 main '.container', ->
-  section '.cr-container', ->
-    img '.cr-avatar', src: '/img/chars/bicky@2x.png', ->
+  section class: 'cr-container cr-container-bicky', ->
+    img '.cr-avatar-bicky', src: '/img/chars/bicky@2x.png', ->
 
   section '.left-hand', ->
     img '.cr-name', src: '/img/names/bicky@3x.png', ->
