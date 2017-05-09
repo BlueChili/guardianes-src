@@ -3,8 +3,8 @@ layout: 'default'
 ###
 
 main '.container', ->
-  section '.cr-container', ->
-    img '.cr-avatar', src: '/img/chars/aura@2x.png', ->
+  section class: 'cr-container cr-container-aura', ->
+    img '.cr-avatar-aura', src: '/img/chars/aura@2x.png', ->
 
   section '.left-hand', ->
     img '.cr-name', src: '/img/names/aura@3x.png', ->
