@@ -27,3 +27,5 @@ div '.ccs', ->
     img src: '/img/chars/aura.png'
   a '.ccs-card', alt: 'Skator',  href: '/skator', ->
     img src: '/img/chars/skator.png'
+  a class:'ccs-card facebook-card', alt: 'Página de FaceBook',  href: '//www.facebook.com/guardianesdelosvaloresylapaz', ->
+    img src: '/img/F_icon.png'
